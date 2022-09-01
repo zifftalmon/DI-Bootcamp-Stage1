@@ -1,0 +1,16 @@
+.pinkbg {
+    background-color:#EB46A3;
+    font-family:'Verdana','DejaVu-Sans','sans-serif';
+}
+#bluetxt {
+color: rgb(0,0,255);
+font-size: 36px;
+}
+.bigtxt {
+    font-size: 24px;
+}
+#greenbg {
+    background-color:#00ffa2;
+    font-size:24px;
+    font-weight:bold;
+}
