@@ -1,0 +1,29 @@
+body {
+    background-color:#00d0ff;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: left;
+    font-weight: bold;
+    margin: 0px auto;
+}
+.intro {
+    text-align: left;
+    font-family:'Helvetica', 'sans-serif';
+    width: 100%;
+}
+.poem {
+    text-align: center;
+    margin: 0px auto;
+    font-family:'Helvetica', 'sans-serif';
+    line-height: 15px;
+}
+.letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+footer {
+    font-family:'Helvetica', 'sans-serif';
+}
