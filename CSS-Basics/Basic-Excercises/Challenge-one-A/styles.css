@@ -1,0 +1,40 @@
+body {
+    background-color:#e5b061;
+    
+}
+#content {
+    background-color:antiquewhite;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border:5px dotted black;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Reem Kufi', sans-serif;
+    border-bottom: 5px dotted black;
+    padding-bottom: 20px;
+}
+.intro {
+    width: 90%;
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: justify;
+    margin-left: 40px;
+}
+.poem {
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+    line-height: 15px;
+}
+.letter {
+    font-size: 35px;
+}
+footer {
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+
+}
