@@ -1,0 +1,17 @@
+h1 {
+    text-align: left;
+    font-weight: bold;
+    margin: 0px auto;
+}
+.intro {
+    text-align: left;
+    margin: 0px auto;
+}
+.poem {
+    text-align: center;
+    margin: 0px auto;
+}
+.poem.letter {
+    font-size: 20px;
+    font-weight: bold;
+}
