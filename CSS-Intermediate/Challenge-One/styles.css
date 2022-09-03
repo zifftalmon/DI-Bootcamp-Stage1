@@ -1,0 +1,23 @@
+body {
+    background-color: #253477;
+    font-family: 'Reem Kufi';
+}
+#wrap {
+    margin: 16px 5%; 
+}
+#nav {
+    float: left;
+    background-color: #8997d8;
+    width: 20%;
+    
+    padding-bottom: 32px;
+    padding-top: 32px;    
+}
+#content {
+    text-align: center;
+    background-color: #4e62bc;
+}
+
+#content > ul > li {
+    list-style-type: none;
+}
