@@ -8,29 +8,29 @@ body {
 }
 
 #wrap {
-    margin: 1em 5%; 
-    background-color: #4e62bc;
-    background-image: url(download.png);
-    background-repeat: repeat-y;
-    background-position: 30% 0;
+    margin: 1em 10% 1em 20%; 
+    
+    
 }
 
 #nav {
     float: left;
     margin-left: 5%;
     width: 15%;
-    padding: 2em 0em 2em 0em;
     background-color:#7988cd;
-    text-align: justify;
-
+    text-align: center;
+    height: 31.65em;
 }
 
-#nav > ul > li {
-    list-style-position:inside;
-}       
+#nav > ul {
+    vertical-align: baseline;
+    text-align:center;
+}
+
 
 h2 {
     text-align: center;
+    margin-top: 30px;
 }
 
 #content {
@@ -47,8 +47,9 @@ h1 {
 #content > ul > li {
     list-style-type: none;
     text-align: center;
-}     
-
+}
 .copyright {
-    clear: both;
-}*/
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
