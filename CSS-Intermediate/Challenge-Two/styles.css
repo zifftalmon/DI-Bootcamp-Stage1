@@ -1,11 +1,71 @@
 body {
     font-family: "Old English Text MT";
     text-align: center;
+    margin: 0;
+    background-color: #226666;
+}
+
+    .col-4 {
+        width: 33%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+@media (min-width: 765px) and (max-width:960px){
+    .col-4 {
+        width: 50%;
+    }
+    .col-6 {
+        width: 100%;
+    }
+}
+@media (max-width:765px) {
+    .col-4 {
+    width: 100%;
+    }
+}
+#navbar {
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #AA6C39;
+    height: 50px;
+    z-index: 9999;
+}
+nav > ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    
+    
+}
+nav > li {
+    padding: 10px;
+}
+li a {
+    display: block;
+    padding: 5px 5px;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin: 2px;
+    color:#d8d8d8;   
+}
+li a:hover {
+    color:#fcfeff
 }
 img {
     display:flexbox;
+    flex-wrap: wrap;
     flex-direction: row;
     vertical-align: middle;
+    justify-content: center;
     width: 290px;
     height: 330px;
+}
+h1 {
+    margin-top: 50px;
 }
