@@ -1,0 +1,11 @@
+body {
+    font-family: "Old English Text MT";
+    text-align: center;
+}
+img {
+    display:flexbox;
+    flex-direction: row;
+    vertical-align: middle;
+    width: 290px;
+    height: 330px;
+}
