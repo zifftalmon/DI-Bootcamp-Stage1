@@ -87,3 +87,36 @@ footer p {
     display: flex;
     justify-content: center;
 }
+@media screen and (min-width: 600px) {
+    #navbar {
+        background-color: yellow;
+        color: black;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }    
+}
+@media screen and (min-width: 768px) {
+    #navbar {
+        background-color: lightgreen;
+        color:black;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }   
+}
+@media screen and (min-width: 992px) {
+    #navbar {
+        background-color: red;
+        color: white;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #navbar {
+        background-color: black;
+        color: white;
+    }
+    
+}
